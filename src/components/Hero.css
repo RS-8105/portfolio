@@ -1,0 +1,28 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.introText{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.designation{
+    font-size: 50px;
+    display: flex;
+    gap: 7px;
+}
+.fullstack{
+    color: rgb(125, 172, 215);
+}
+
+.rushi-img{
+    border: 1px solid white;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+}

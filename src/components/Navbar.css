@@ -1,0 +1,38 @@
+.left{
+    display: flex;
+    gap: 20px;
+    height: 4vh;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    height: 4vh;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.362);
+}
+
+.links{
+    color: grey;
+    text-decoration: none;
+}
