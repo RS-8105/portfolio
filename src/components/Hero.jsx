@@ -3,7 +3,7 @@ import "./Hero.css";
 import rushiimg from '../assets/Img2.jpeg'
 const Hero = () => {
   const [text, setText] = useState("Frontend");
-  const words = ["Frontend", "Fullstack", "Software"];
+  const words = ["Frontend", "Backend", "Fullstack", "Software"];
   useEffect(() => {
     let index = 0;
     const intervalId = setInterval(() => {
